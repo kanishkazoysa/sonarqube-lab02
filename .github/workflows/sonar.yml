@@ -39,6 +39,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           mvn sonar:sonar \
-            -Dsonar.projectKey=DeZoysaLLK214046N_Lab02 \
-            -Dsonar.organization=DeZoysaLKLK214046N \
+            -Dsonar.projectKey=dezoysalklk214046n_lab02 \
+            -Dsonar.organization=dezoysalklk214046n \
             -Dsonar.host.url=https://sonarcloud.io
